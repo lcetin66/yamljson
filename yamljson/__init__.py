@@ -15,4 +15,4 @@ __all__: list[str] = [
     "json_string_to_yaml",
     "yaml_string_to_json",
 ]
-__version__ = "1.0.0"
+__version__ = "1.1.0"
