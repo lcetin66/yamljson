@@ -13,3 +13,7 @@ htmlcov/
 # Virtual environments
 .venv/
 venv/
+
+# Packaging artifacts
+dist/
+*.egg-info/
