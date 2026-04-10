@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Test/coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/

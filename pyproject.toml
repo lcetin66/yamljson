@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yamljson"
+version = "1.0.0"
+description = "A simple JSON ↔ YAML converter CLI tool"
+authors = [
+    { name="Levent Cetin", email="cetin@3ccs.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["pyyaml"]
+
+[project.scripts]
+convert = "yamljson.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
